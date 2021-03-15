@@ -1,0 +1,84 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #e6ebe0;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 40px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+p {
+  padding: 20px;
+  width: fit-content;
+  width: -moz-max-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  background-color: #9bc1bc;
+  border-radius: 10px;
+}
+
+.div-container {
+  text-align: center;
+}
+
+.options {
+  color: black;
+}
+
+button {
+  border: none;
+  padding: 10px 10px;
+  font-size: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: none;
+  color: white;
+  background-color: #36c9c6;
+  transition: opacity 0.2s ease-out;
+  margin-top: 10px;
+}
+
+button:focus {
+  outline: 0;
+}
+
+select:focus {
+  outline: 0;
+}
+button:hover {
+  background-color: #ed6a5a;
+}
+
+.quote--para-container {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+#quote-t,
+#quote-n {
+  margin-left: 20px;
+  color: black;
+  background-color: #f4f1bb;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#quote-box {
+  margin-top: 15px;
+  color: black;
+  background-color: #f4f1bb;
+}

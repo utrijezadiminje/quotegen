@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quote Generator</title>
+    <link rel="stylesheet" href="css/run.css" />
+  </head>
+
+  <body>
+    <header>
+      <h1>Random quote generator</h1>
+    </header>
+
+    <div class="div-container">
+      <div class="options">
+        <div class="quote--para-container">
+          <h2>Number of quotes:</h2>
+
+          <select
+            id="quote-n"
+            onchange="updateN()"
+          >
+            <option value="1" selected>1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <br />
+        <div class="quote--para-container">
+          <h2>Type of quotes:</h2>
+
+          <select
+            id="quote-t"
+            onchange="updateT()"
+          >
+            <option value="All" selected>All</option>
+            <option value="Time">Time</option>
+            <option value="Money">Money</option>
+          </select>
+        </div>
+      </div>
+      <button onClick="generateQ()" id="generate">Generate quotes</button>
+      <div id="quote-box"></div>
+    </div>
+
+    <script src="js/quoteDB.js"></script>
+    <script src="js/run.js"></script>
+  </body>
+</html>
