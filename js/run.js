@@ -4,7 +4,9 @@ let quoteT = "All";
 let quoteTI;
 
 const getRandI = (m, n) => {
-        return Math.floor(Math.random() * (m - n + 1)) + m;
+  m = Math.ceil(m);
+  n = Math.floor(n);
+  return Math.floor(Math.random() * (n - m + 1)) + m;
 }
 
 const randomQ = (selectQt) => {

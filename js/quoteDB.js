@@ -1,7 +1,7 @@
 const quotes = [
   {
     begin: "Ko rano rani",
-    middle: "dve srece",
+    middle: "dve sreće",
     end: "grabi.",
     category: "Time"
   },
@@ -24,14 +24,14 @@ const quotes = [
     category: "Time"
   },
   {
-    begin: "Covek prica o",
+    begin: "Covek priča o",
     middle: "ubijanju vremena dok vreme",
     end: "njega lagano ubija.",
     category: "Time"
   },
   {
-    begin: "Ako si uzivao u ",
-    middle: "potrosenom vremenu,",
+    begin: "Ako si uživao u ",
+    middle: "potrošenom vremenu,",
     end: "onda to vreme nije uzalud potrošeno.",
     category: "Time"
   },
@@ -43,12 +43,12 @@ const quotes = [
   },
   {
     begin: "Bolje je biti",
-    middle: "zivi prosjak",
+    middle: "živi prosjak",
     end: "nego mrtvi car.",
     category: "Money"
   },
   {
-    begin: "Novac zarazen",
+    begin: "Novac zaražen",
     middle: "trgovinom traje trideset godina,",
     end: "novac zaražen znojem traje sto godina.",
     category: "Money"
