@@ -24,7 +24,7 @@ const quotes = [
     category: "Time"
   },
   {
-    begin: "Covek priča o",
+    begin: "Čovek priča o",
     middle: "ubijanju vremena dok vreme",
     end: "njega lagano ubija.",
     category: "Time"
@@ -60,7 +60,7 @@ const quotes = [
     category: "Money"
   },
   {
-    begin: "Ko god misli da ce ga",
+    begin: "Ko god misli da će ga",
     middle: "novac uciniti sretnim",
     end: "nije nikada ni imao novca.",
     category: "Money"

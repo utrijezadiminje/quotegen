@@ -71,14 +71,13 @@ button:hover {
   margin-left: 20px;
   color: black;
   background-color: #f4f1bb;
-  padding: 5px;
+  padding: 2px 5px 2px;
   border: none;
   cursor: pointer;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
 #quote-box {
   margin-top: 15px;
   color: black;
-  background-color: #f4f1bb;
 }
